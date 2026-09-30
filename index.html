@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zuqaq Architecture | زقاق للعمارة</title>
+  <meta name="description" content="Zuqaq Architecture: architecture, interior design and 3D visualization." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav" id="nav">
+    <nav class="nav__side">
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#top" class="logo">ZUQAQ</a>
+    <nav class="nav__side nav__side--end">
+      <a href="#about">About</a>
+      <a href="https://instagram.com/zuqaq_architecture/" target="_blank" rel="noopener">Instagram</a>
+      <a href="#contact" class="pill">Let's talk <b>+</b></a>
+    </nav>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="slide active" style="background-image:url('images/hero-background.webp')" data-title="ZUQAQ Architecture" data-place="Architecture &amp; Interior Design"></div>
+    <div class="slide" style="background-image:url('images/modern-villa.jpg')" data-title="Modern Villa" data-place="Residential"></div>
+    <div class="slide" style="background-image:url('images/private-residence.jpg')" data-title="Private Residence" data-place="Architecture &amp; Landscape"></div>
+    <div class="slide" style="background-image:url('images/bedroom-interior.jpg')" data-title="Luxury Interior" data-place="Interior Design"></div>
+    <div class="hero__shade"></div>
+    <div class="hero__caption">
+      <span id="capTitle">Modern Villa</span>
+      <span id="capPlace">Residential</span>
+    </div>
+    <div class="hero__ar">زقاق للعمارة</div>
+  </section>
+
+  <main>
+    <section class="intro wrap" id="about">
+      <h1>Architecture, interiors and 3D visualization studio</h1>
+      <p>We design villas, homes and commercial spaces with clear ideas, careful materials and realistic 3D images that show the result before construction starts.</p>
+      <a href="#projects" class="link">See our work</a>
+    </section>
+
+    <section class="wrap portfolio" id="projects">
+      <div class="portfolio__head">
+        <h2>Portfolio</h2>
+        <p>A selection of recent architecture and interior projects.</p>
+        <a href="https://instagram.com/zuqaq_architecture/" target="_blank" rel="noopener" class="link">More on Instagram</a>
+        <div class="count"><strong>50+</strong><span>completed projects</span></div>
+      </div>
+      <div class="mosaic">
+        <figure class="m1"><img src="images/modern-villa.jpg" alt="Contemporary villa" /></figure>
+        <figure class="m2"><img src="images/kitchen-interior.jpg" alt="Kitchen interior" /></figure>
+        <figure class="m3"><img src="images/contemporary-home.jpg" alt="Private residence" /></figure>
+        <figure class="m4"><img src="images/bedroom-interior.jpg" alt="Bedroom interior" /></figure>
+        <figure class="m5"><img src="images/private-residence.jpg" alt="Modern villa exterior" /></figure>
+        <figure class="m6"><img src="images/portfolio-project-01.jpg" alt="Zuqaq architecture project 1" /></figure>
+        <figure class="m7"><img src="images/portfolio-project-02.jpg" alt="Zuqaq architecture project 2" /></figure>
+        <figure class="m8"><img src="images/portfolio-project-03.jpg" alt="Zuqaq architecture project 3" /></figure>
+      </div>
+    </section>
+
+    <section class="wrap services" id="services">
+      <div class="services__head">
+        <h2>Services</h2>
+      </div>
+      <ul class="services__list">
+        <li data-img="images/modern-villa.jpg"><span>Architecture</span></li>
+        <li data-img="images/bedroom-interior.jpg"><span>Interior design</span></li>
+        <li data-img="images/kitchen-interior.jpg"><span>3D visualization</span></li>
+        <li data-img="images/private-residence.jpg"><span>Villas &amp; homes</span></li>
+        <li data-img="images/contemporary-home.jpg"><span>Commercial</span></li>
+      </ul>
+    </section>
+
+    <section class="wrap contact" id="contact">
+      <div class="contact__img"><img src="images/contemporary-home.jpg" alt="Architecture detail" /></div>
+      <div class="contact__body">
+        <h3>Info</h3>
+        <dl>
+          <div><dt>Phone / WhatsApp</dt><dd><a href="tel:+9647901830778">+964 790 183 0778</a> · <a href="https://wa.me/9647901830778">WhatsApp</a></dd></div>
+          <div><dt>Instagram</dt><dd>@zuqaq_architecture</dd></div>
+          <div><dt>Email</dt><dd>[your email]</dd></div>
+          <div><dt>Location</dt><dd>[your city]</dd></div>
+        </dl>
+        <h3>Get in touch</h3>
+        <form id="form">
+          <input type="text" placeholder="Your name" required />
+          <input type="email" placeholder="Your email" required />
+          <textarea rows="2" placeholder="Tell us about your project"></textarea>
+          <button type="submit" class="link">Send message</button>
+        </form>
+      </div>
+      <div class="contact__vert">Contact us</div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <span>ZUQAQ ARCHITECTURE</span>
+    <span>© 2026 Zuqaq Architecture</span>
+  </footer>
+
+  <div class="lightbox"><button class="lightbox-close" aria-label="Close">×</button><img src="" alt="" /></div>
+  <script src="script.js"></script>
+</body>
+</html>
