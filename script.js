@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     capPlace.innerHTML = slides[current].dataset.place;
   };
   if (slides.length > 1 && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    setInterval(() => show(current + 1), 5500);
+    setInterval(() => show(current + 1), 4500);
   }
 
   // Service hover images
